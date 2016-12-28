@@ -37,6 +37,7 @@ end
 
 gem "bootstrap-sass"
 gem "simple_form"
+gem "devise"
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
@@ -49,6 +50,8 @@ end
 group :production do
   gem "pg"
 end
+
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
